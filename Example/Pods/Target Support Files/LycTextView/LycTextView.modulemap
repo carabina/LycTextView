@@ -1,0 +1,6 @@
+framework module LycTextView {
+  umbrella header "LycTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

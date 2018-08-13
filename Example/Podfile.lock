@@ -1,0 +1,16 @@
+PODS:
+  - LycTextView (0.1.0)
+
+DEPENDENCIES:
+  - LycTextView (from `../`)
+
+EXTERNAL SOURCES:
+  LycTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LycTextView: 570fcaf9aa81eb3e3a55039c95c8f4d3b4e6b6ad
+
+PODFILE CHECKSUM: 1fea3d5b1af142075fb30f1bacfb3aa4f6212730
+
+COCOAPODS: 1.5.3
