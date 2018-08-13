@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LycTextView_Example' do
+  pod 'LycTextView', :path => '../'
+
+  target 'LycTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
