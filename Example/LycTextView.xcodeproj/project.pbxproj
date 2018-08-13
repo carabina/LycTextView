@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7739DDAFC0014BCABB039127 /* Pods_LycTextView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6443D1301AFB87B264E7C33A /* Pods_LycTextView_Tests.framework */; };
+		954583222121659A00E9F0A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954583212121659A00E9F0A5 /* ViewController.swift */; };
 		C7947E12539EA1757E79E384 /* Pods_LycTextView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A84C8E02004D287DD0F3926 /* Pods_LycTextView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,11 +30,10 @@
 /* Begin PBXFileReference section */
 		2AB49B96F96ADCE5E5F266E5 /* Pods-LycTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LycTextView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LycTextView_Tests/Pods-LycTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A84C8E02004D287DD0F3926 /* Pods_LycTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LycTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DF95181A011191FDADCB0B8 /* LycTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LycTextView.podspec; path = ../LycTextView.podspec; sourceTree = "<group>"; };
+		4DF95181A011191FDADCB0B8 /* LycTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LycTextView.podspec; path = ../LycTextView.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LycTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LycTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,10 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6443D1301AFB87B264E7C33A /* Pods_LycTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LycTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		780FBE57E06C6D9F12873DA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		780FBE57E06C6D9F12873DA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7C3AAF56EA538565FBB9383D /* Pods-LycTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LycTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LycTextView_Example/Pods-LycTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		84AC8F4B8FB2A3F58211C194 /* Pods-LycTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LycTextView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LycTextView_Tests/Pods-LycTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A9087D1B1B55C1FE9957CA51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		954583212121659A00E9F0A5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9087D1B1B55C1FE9957CA51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED915725E454D31D68824D2F /* Pods-LycTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LycTextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LycTextView_Example/Pods-LycTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				954583212121659A00E9F0A5 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -322,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				954583222121659A00E9F0A5 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

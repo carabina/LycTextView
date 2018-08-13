@@ -1,24 +1,25 @@
 //
 //  ViewController.swift
-//  LycTextView
+//  LycricsTextView
 //
-//  Created by baran.karaoguz@ogr.sakarya.edu.tr on 08/13/2018.
-//  Copyright (c) 2018 baran.karaoguz@ogr.sakarya.edu.tr. All rights reserved.
+//  Created by Baran on 31.05.2018.
+//  Copyright © 2018 CodingMind. All rights reserved.
 //
 
 import UIKit
+import LycTextView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lycricsTextView: LycricsTextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        lycricsTextView.lycricsColor = .red
+        lycricsTextView.animateTime = 20
+        lycricsTextView.startLycrics()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
+
 

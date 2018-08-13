@@ -14,7 +14,9 @@
 		5CF8C65EA9BFC8049363B485B9061213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		70EE683A90CD33F2EF4C531E9076CF27 /* Pods-LycTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC6287B35B262460E4562C52ACCA782 /* Pods-LycTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7696F84E48E85C9AA10B0EA44F535442 /* LycTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 126E1DC4C2757BE5A9E3D9B724550D7D /* LycTextView-dummy.m */; };
-		B1EF2FE066EDCE62DE624E715782ECE7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0533B679B389F687A498D913352F250 /* ReplaceMe.swift */; };
+		9545831E2121658E00E9F0A5 /* LycricsLineProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545831B2121658E00E9F0A5 /* LycricsLineProperties.swift */; };
+		9545831F2121658E00E9F0A5 /* LycricsAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545831C2121658E00E9F0A5 /* LycricsAttributed.swift */; };
+		954583202121658E00E9F0A5 /* LycricsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545831D2121658E00E9F0A5 /* LycricsTextView.swift */; };
 		B333E7901036481AEF7CAD20CE42EFDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F463CD4C65A6EAFD15F33C9BDACA9DC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +42,7 @@
 		03839C215E37F84B577FCBD57BE2BC53 /* LycTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LycTextView.modulemap; sourceTree = "<group>"; };
 		126E1DC4C2757BE5A9E3D9B724550D7D /* LycTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LycTextView-dummy.m"; sourceTree = "<group>"; };
 		13493A14B398885120F39F885B1CED00 /* Pods-LycTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1409DD1F26C161B7EF423B571918A13B /* LycTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LycTextView.framework; path = LycTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1409DD1F26C161B7EF423B571918A13B /* LycTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LycTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B53CBA89C5CAF34F5AA4DD3BB796EA /* Pods-LycTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LycTextView_Tests-dummy.m"; sourceTree = "<group>"; };
 		1B0B92F42AE41BECCC46B0E560558A8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7041AE63E460EF955D38D48DDCBCAF /* Pods-LycTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LycTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -57,21 +59,23 @@
 		7FC6287B35B262460E4562C52ACCA782 /* Pods-LycTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LycTextView_Example-umbrella.h"; sourceTree = "<group>"; };
 		811E137F283CFAFB82CA1FD37B20D23F /* Pods-LycTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LycTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F3C303B5EA63B17615BCF74557D8A72 /* Pods-LycTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9545831B2121658E00E9F0A5 /* LycricsLineProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LycricsLineProperties.swift; sourceTree = "<group>"; };
+		9545831C2121658E00E9F0A5 /* LycricsAttributed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LycricsAttributed.swift; sourceTree = "<group>"; };
+		9545831D2121658E00E9F0A5 /* LycricsTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LycricsTextView.swift; sourceTree = "<group>"; };
 		A4CF29BF5F5F4485FF848A0AA851416C /* Pods-LycTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycTextView_Tests-resources.sh"; sourceTree = "<group>"; };
-		A6B5157A6465673B07B2782B6BBA5EA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B0533B679B389F687A498D913352F250 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LycTextView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B5762910A93EB41A52274C8DD6E045F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C1586F66AD65B14EB8717393FD271C5E /* Pods_LycTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LycTextView_Example.framework; path = "Pods-LycTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B5157A6465673B07B2782B6BBA5EA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B5762910A93EB41A52274C8DD6E045F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1586F66AD65B14EB8717393FD271C5E /* Pods_LycTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LycTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E59BD754AF3195EAB016ECFF6ACD4E /* Pods-LycTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LycTextView_Example-dummy.m"; sourceTree = "<group>"; };
 		C5C4049D2A12752DCDBA29CFDC343AEF /* Pods-LycTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA51E3081307AB25C9A30FADE66F494E /* Pods_LycTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LycTextView_Tests.framework; path = "Pods-LycTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA51E3081307AB25C9A30FADE66F494E /* Pods_LycTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LycTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20C880A9AFCCEFFEC6F64AE2290C0BC /* Pods-LycTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LycTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E05EA96F5B4D3A2BC07BC28FB8158542 /* Pods-LycTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycTextView_Example-resources.sh"; sourceTree = "<group>"; };
 		E477173E3771EE2CBC7FB8B93C003355 /* Pods-LycTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F77469C599B7BD023BF6C031ADB6A0F1 /* Pods-LycTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LycTextView_Example.modulemap"; sourceTree = "<group>"; };
 		F888C4EA89ECC24564C04CF1C551702D /* Pods-LycTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FE6F013A795B9CE0894F939122013345 /* LycTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LycTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE6F013A795B9CE0894F939122013345 /* LycTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LycTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +179,9 @@
 		AFB784B27C5D4BE2E6BD8819B3856928 /* LycTextView */ = {
 			isa = PBXGroup;
 			children = (
-				B0533B679B389F687A498D913352F250 /* ReplaceMe.swift */,
+				9545831C2121658E00E9F0A5 /* LycricsAttributed.swift */,
+				9545831B2121658E00E9F0A5 /* LycricsLineProperties.swift */,
+				9545831D2121658E00E9F0A5 /* LycricsTextView.swift */,
 				7EFFFE13CF67B62A89971FFFA2090C82 /* Pod */,
 				515C9D66863C6BA6869E3FEE197334D5 /* Support Files */,
 			);
@@ -318,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					EFC38E91E4485EE579CDF0904D5A2F7A = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,8 +354,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9545831F2121658E00E9F0A5 /* LycricsAttributed.swift in Sources */,
+				954583202121658E00E9F0A5 /* LycricsTextView.swift in Sources */,
+				9545831E2121658E00E9F0A5 /* LycricsLineProperties.swift in Sources */,
 				7696F84E48E85C9AA10B0EA44F535442 /* LycTextView-dummy.m in Sources */,
-				B1EF2FE066EDCE62DE624E715782ECE7 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5875F9492FD973C587BECE531E8BB7CA /* LycTextView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -677,6 +691,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5875F9492FD973C587BECE531E8BB7CA /* LycTextView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
